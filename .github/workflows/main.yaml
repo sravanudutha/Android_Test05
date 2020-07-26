@@ -35,7 +35,7 @@ jobs:
         uses: webbertakken/unity-builder@v0.10
         with:
           unityVersion: 2019.3.9f1
-          targetPlatform: WebGL
+          targetPlatform: Android
 
       # Output
       - uses: actions/upload-artifact@v1
